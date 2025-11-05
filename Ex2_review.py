@@ -70,7 +70,7 @@ elif score >= 50:
     print("Good Effort!")
 else:
     print("Needs Improvement.")
-    
+
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
@@ -107,8 +107,14 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+start = int(input("Enter a starting number: "))
 
-# -------------------------------------------
+while start >= 1:
+    print(start)
+    start -= 1
+print ("Blast off!")
+
+# ------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
 # Once you’ve completed this exercise:
