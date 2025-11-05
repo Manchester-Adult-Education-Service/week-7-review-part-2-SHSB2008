@@ -150,6 +150,7 @@ print("-------------------------------------------\n"
 number = int(input("Enter a number: "))
 for i in range(1,11):
     print(f"{number} x {i} = {number * i}")
+
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
@@ -185,7 +186,16 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-
+secretnumber = 8
+guess = int(input("guess the secret number (between 1 and 10): "))
+while guess != secretnumber:
+    if guess < secretnumber:
+        print("Too low!")
+    elif guess > secretnumber:
+        print("Too high!")
+    guess = int(input("Try again: "))
+else:
+    print("Correct! Well done.")
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
