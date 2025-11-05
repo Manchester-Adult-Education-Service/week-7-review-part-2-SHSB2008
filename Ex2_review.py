@@ -26,7 +26,11 @@ print("-------------------------------------------\n"
 # Output: 7 is odd
 #
 # Write your code below:
-
+number = int(input("Enter an integer: "))
+if number % 2 == 0:
+    print (f"{number} is even.")
+else:
+    print (f"{number} is odd.")
 
 # -------------------------------------------
 # Submitting Your Work
